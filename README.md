@@ -16,9 +16,6 @@ Scala books to become more expert in Scala programming.</p>
 <a href="https://mybinder.org/v2/gh/freechipsproject/chisel-bootcamp/master"><strong>online Chisel Bootcamp</strong></a>.</p>
 
 <p>For quick reference “How-To” guides see the <a href="cookbooks/cookbooks">Cookbooks</a>.</p>
-# Verilog vs Chisel Side-By-Side
-
-This page serves as a quick introduction to Chisel for those familiar with Verilog. It is by no means a comprehensive guide of everything Chisel can do. Feel free to file an issue with suggestions of things you'd like to see added to this page. 
 
 
 # Verilog vs Chisel Side-By-Side
@@ -27,8 +24,7 @@ This page serves as a quick introduction to Chisel for those familiar with Veril
 
 
 <body>
-    <!-- This script is needed so that Markdown and HTML will render together, see link to Stack overflow -->
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
     <table border="0">
         <h1>Creating a Module</h1>
         <tr>
@@ -138,6 +134,7 @@ class ParameterizedWidthAdder(
 </td>
 </tr>
     </table>
+    </body>
 <html>
-<body>
+
 
