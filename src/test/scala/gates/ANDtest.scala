@@ -2,7 +2,7 @@ package gates
 import chisel3._
 import org.scalatest._
 import chiseltest._
-class ANDtest extends FreeSpec with ChiselScalatestTester{
+class t1test extends FreeSpec with ChiselScalatestTester{
     "And gate Test" in {
         test(new AND()){ c=>
         c.io.a.poke(8.S)
