@@ -2,7 +2,7 @@ package lab3
 import chisel3._
 import org.scalatest._
 import chiseltest._
-class branchtest extends FreeSpec with ChiselScalatestTester{
+class Branchtest extends FreeSpec with ChiselScalatestTester{
     "aluTest" in {
         test(new BranchControl()){ c=>
         c.io.funct3.poke(1.U)
