@@ -16,8 +16,8 @@ class ex1 extends Module{
     // connect the inputs to different producers
 
     arb_priority.io.in (0) <> q1
-    arb_priority.io.in (1) <> q2
-    arb_priority.io.in (2) <> q3
+    arb_priority.io.in (2) <> q2
+    arb_priority.io.in (1) <> q3
 
     // connect the output to consumer
     io.out <> arb_priority.io.out

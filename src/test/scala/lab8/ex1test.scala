@@ -2,7 +2,7 @@ package lab8
 import chisel3._
 import org.scalatest._
 import chiseltest._
-class l8t1test extends FreeSpec with ChiselScalatestTester{
+class l8e1test extends FreeSpec with ChiselScalatestTester{
     "lab8 e1 Test" in {
         test(new l8ex1()){ c =>
         c.io.dataIn(0).poke(15.U)
